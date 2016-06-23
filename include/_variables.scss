@@ -1,0 +1,20 @@
+$body-width: 980px;
+$container-width: $body-width - 20;
+
+$yellow: #ffdc59;
+
+$background-black: #000;
+
+$text-primary: #5e5e5e;
+$text-white: #fff;
+$text-gray: #808080;
+$text-black: #000;
+$text-yellow: $yellow;
+
+@mixin font-primary {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+@mixin font-condensed {
+    font-family: 'Open Sans Condensed', 'Open Sans', Arial, Helvetica, sans-serif;
+}

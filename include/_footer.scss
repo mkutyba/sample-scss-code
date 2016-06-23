@@ -1,0 +1,16 @@
+.footer {
+    background: $background-black url("../images/footer__background.jpg") no-repeat top center;
+    min-height: 133px;
+    margin-top: 60px;
+}
+
+.copyright {
+    float: right;
+    font-size: 11px;
+    margin-top: 90px;
+    color: $text-gray;
+
+    &__link {
+        color: inherit;
+    }
+}

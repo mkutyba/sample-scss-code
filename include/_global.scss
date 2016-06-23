@@ -1,0 +1,51 @@
+body {
+    min-width: $body-width;
+    width: auto !important;  /* Firefox will set width as auto */
+    width: $body-width;      /* As IE ignores !important it will set width as 940px; */
+    @include font-primary;
+    color: $text-primary;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.u-container {
+    width: $container-width;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*::selection {
+    background: $yellow;
+    color: $text-black;
+}
+*::-moz-selection {
+    background: $yellow;
+    color: $text-black;
+}
+
+.col_1_2 {
+    width: 50%;
+    float: left;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.img-left {
+    margin-right: 10px;
+}
